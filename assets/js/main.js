@@ -97,7 +97,7 @@
   })
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -213,35 +213,6 @@
   });
 
   /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      }
-    }
-  });
-
-  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
@@ -251,6 +222,26 @@
       once: true,
       mirror: false
     })
+	
+	//$('.portfolio-wrap').click(function(){console.log($(this).find('a'));$(this).find('a').click();});
   });
+  
+  
+  /*
+  *	open lightbox on click on image
+  */
+  var elements = document.getElementsByClassName("portfolio-wrap");
+
+	var showLightbox = function(e) {
+		if(e.target.getElementsByTagName('a')[0] != 'undefined' && e.target.getElementsByTagName('a')[0] != null){
+			
+			e.target.getElementsByTagName('a')[0].click();
+		}
+	};
+
+	for (var i = 0; i < elements.length; i++) {
+		elements[i].addEventListener('click', showLightbox, false);
+	}
+  
 
 })()

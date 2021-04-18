@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #ab0008;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #ab0008;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #f9796cb5;
   color: #fff;
 }
 
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #ab0008;
   color: #fff;
   text-decoration: none;
 }
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #ab0008;
 }
 
 /* Mobile Navigation */
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #ab0008;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #ab0008;
 }
 
 @media (min-width: 1024px) {
@@ -305,7 +305,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #ab0008;
   bottom: 0;
   left: 0;
 }
@@ -341,7 +341,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #ab0008;
   line-height: 0;
 }
 
@@ -364,7 +364,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #ab0008;
   float: left;
   line-height: 0;
 }
@@ -434,7 +434,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: #ab0008;
 }
 
 /*--------------------------------------------------------------
@@ -529,7 +529,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #ab0008;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -541,6 +541,10 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+}
+
+.portfolio .portfolio-wrap:hover{
+	cursor:pointer;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -572,13 +576,13 @@ section {
   color: #fff;
   font-size: 22px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgba(0, 0, 0, 0.75);
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgba(0, 0, 0, 0.95);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
@@ -619,11 +623,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #ab0008;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #ab0008;
 }
 
 .portfolio-details .portfolio-info {
@@ -677,10 +681,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #ab0008;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #ab0008;
 }
 
 .services .icon i {
@@ -694,7 +698,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #ab0008;
 }
 
 .services .title {
@@ -709,7 +713,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #ab0008;
 }
 
 .services .description {
@@ -738,11 +742,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #ab0008;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #fff5e2b5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -798,12 +802,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #ab0008;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #ab0008;
   color: #fff;
 }
 
@@ -891,7 +895,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #149ddd;
+  background: #ab0008;
   border: 0;
   padding: 10px 24px;
   color: #fff;
