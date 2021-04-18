@@ -191,6 +191,9 @@
   /**
    * Initiate portfolio lightbox 
    */
+ const portfolioLightboxZuidlaan = GLightbox({
+    selector: '.portfolio-lightbox.zuidlaan'
+  });
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });

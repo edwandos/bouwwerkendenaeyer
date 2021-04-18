@@ -332,6 +332,7 @@ section {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  list-style-type: none;
 }
 
 .about .content ul strong {
