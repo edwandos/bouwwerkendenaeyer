@@ -236,8 +236,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
-  font-weight: 700;
+  font-size: 48px;
+  font-weight: 600;
   line-height: 56px;
   color: #fff;
 }
@@ -727,14 +727,18 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 0;
 }
 
+/* .contact .section-title{ */
+	/* padding-bottom: 0; */
+/* } */
+
 .contact .info {
-  padding: 30px;
+  padding-bottom: 30px;
   background: #fff;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  /* box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); */
 }
 
 .contact .info .info-row{
@@ -1007,4 +1011,12 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+#map{
+	height: 500px;
+}
+
+.portfolio-lightbox, .gslide-description{
+	display:none;
 }
